@@ -23,13 +23,15 @@ putchar(' ');
 
 putchar(n);
 putchar(m);
+if (x != '9' ||  y + 1 != '9')
+{
 putchar(',');
 putchar(' ');
 }
 }
 }
 }
-putchar('\n');
+}
 
 return (0);
 }
