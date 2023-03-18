@@ -14,7 +14,7 @@ for (y = '0'; y <= '9'; y++)
 {
 for (n = x; n <= '9'; n++)
 {
-for (m = x == n ? y + 1 : y; m <= '9'; m++)
+for (m = x == n ? y + 1 : '0'; m <= '9'; m++)
 {
 putchar(x);
 putchar(y);
