@@ -5,7 +5,8 @@
 * Return: Always 0 (Success)
 */
 
-int main(void) {
+int main(void)
+{
 int x, y, n, m;
 
 for (x = '0'; x <= '9'; x++)
