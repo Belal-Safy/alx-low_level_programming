@@ -21,7 +21,7 @@ for (l = '2' + itr2; l <= '9'; l++)
 putchar(n);
 putchar(m);
 putchar(l);
-if (n != '7' || m != '8' || l != '9' )
+if (n != '7' || m != '8' || l != '9')
 {
 putchar(',');
 putchar(' ');
