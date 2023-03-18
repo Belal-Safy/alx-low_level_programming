@@ -18,7 +18,6 @@ for (m = x == n ? y + 1 : y; m <= '9'; m++)
 {
 putchar(x);
 putchar(y);
-putchar(',');
 putchar(' ');
 
 putchar(n);
