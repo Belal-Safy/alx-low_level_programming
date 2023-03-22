@@ -10,11 +10,11 @@
  
 void _putchar(char c)
 {
-write(1, &c, 1);   
+putchar(c);   
 }
 
 /**
- * print_alphabet - check the code
+ * main - check the code
  *
  * Return: Always 0.
  */
