@@ -9,6 +9,6 @@
 int print_last_digit(int c)
 {
 int last = c % 10;
-printf("%d", last);
+_putchar(last + '0');
 return (last);
 }
