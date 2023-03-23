@@ -2,7 +2,6 @@
 
 /**
  * _islower - check the code
- * @parameter: describe the parameter
  * Return: Always 0.
  */
 
