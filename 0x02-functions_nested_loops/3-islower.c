@@ -2,6 +2,7 @@
 
 /**
  * _islower - check the code
+ * @c: character
  * Return: Always 0.
  */
 
