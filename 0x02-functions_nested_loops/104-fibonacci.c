@@ -7,7 +7,7 @@
  * Return: Nothing!
  */
 
-void main() {
+int main() {
   const long long int half = 1000000000000 LL;
   long long int n1_h = 0, n1_l = 1, n2_h = 0, n2_l = 2, n3_h, n3_l, i, number;
   number = 99;
@@ -35,4 +35,5 @@ void main() {
 
   }
   printf("\n");
+  return (0)
 }
