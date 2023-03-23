@@ -2,7 +2,7 @@
 
 /**
  * _islower - check the code
- * c: The character to print
+ * @parameter: describe the parameter
  * Return: Always 0.
  */
 
