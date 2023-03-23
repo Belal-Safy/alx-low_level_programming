@@ -6,9 +6,9 @@
  * Return: Always 0.
  */
 
-long int print_last_digit(int c)
+int print_last_digit(int c)
 {
-int last = abs(c % (long int)10);
+int last = abs(c % 10);
 _putchar(last + '0');
 return (last);
 }
