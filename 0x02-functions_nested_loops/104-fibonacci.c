@@ -8,10 +8,10 @@
  */
 
 int main() {
-  const long long int half = 1000000000000;
-  long long int n1_h = 0, n1_l = 1, n2_h = 0, n2_l = 2, n3_h, n3_l, i, number;
+  const unsigned long int half = 1000000000000;
+  unsigned long int n1_h = 0, n1_l = 1, n2_h = 0, n2_l = 2, n3_h, n3_l, i, number;
   number = 99;
-  printf("%lld, %lld, ", n1_l, n2_l);
+  printf("%ld, %ld, ", n1_l, n2_l);
   // loop starts from 2 because 0 and 1 are already printed
   for (i = 3; i < number; ++i) {
     // n3 = n1 + n2;
@@ -20,11 +20,11 @@ int main() {
     n3_l %= half;
     // print n3
     if (n3_h > 0) {
-      printf("%lld%lld", n3_h, n3_l);
+      printf("%ld%ld", n3_h, n3_l);
       if (n3_l != 834555169026)
         printf(", ");
     } else {
-      printf("%lld, ", n3_l);
+      printf("%ld, ", n3_l);
     }
     // n1 = n2;
     n1_h = n2_h;
@@ -35,5 +35,5 @@ int main() {
 
   }
   printf("\n");
-  return (0)
+  return (0);
 }
