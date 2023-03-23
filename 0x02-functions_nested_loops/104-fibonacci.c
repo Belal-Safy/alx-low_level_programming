@@ -8,7 +8,7 @@
  */
 
 int main() {
-  const long long int half = 1000000000000 LL;
+  const long long int half = 1000000000000;
   long long int n1_h = 0, n1_l = 1, n2_h = 0, n2_l = 2, n3_h, n3_l, i, number;
   number = 99;
   printf("%lld, %lld, ", n1_l, n2_l);
